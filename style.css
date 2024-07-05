@@ -5,17 +5,18 @@
 body {
   background-image: url(bg-image.jpg);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 .card {
   width: 450px;
   height: auto;
   background-image: linear-gradient(rgba(134, 134, 134, 0.952), #c6ff54f3);
-  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 2% auto ;
   padding: 10px 5px 30px 5px;
 }
 .card-content {
